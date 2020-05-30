@@ -1,0 +1,305 @@
+body{
+    height: auto;
+}
+.mycontainer{
+    max-width:1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.d-flex-end {
+    justify-content: end !important;
+    -webkit-justify-content: flex-end !important;
+       -moz-justify-content: flex-end;
+        -ms-justify-content: flex-end;
+            justify-content: flex-end;
+            
+}
+.nav-link,.dropdown-menu a{
+    
+    font-size: 20px;
+    color: black !important;
+}
+.navbar-brand img{
+    margin-left: 35px;
+}
+.navbar{
+    padding-top: 0px !important;
+    padding-bottom: 0% !important;
+}
+.bg-light{
+    background-color: gainsboro !important;
+}
+.active,.active a,.navbar-nav li a:hover{
+    background-color: blue;
+    color: floralwhite !important;
+    border-radius: 5px;
+    
+}
+
+.ul-header-icon{
+    list-style: none;
+    
+    flex-wrap:wrap;
+    justify-content:end;
+    text-align: right;
+    font-size: 20px;
+    align-items: center;
+    margin-bottom: 0px !important;
+    
+}
+.ul-header-icon li{
+    margin-left: 10px;
+    margin-right: 10px;
+    display:inline;
+    
+  
+}
+.ul-header-icon li a{
+    color: black;
+}
+.ul-header-icon li a:hover{
+    color: blue;
+    cursor: hand !important;}
+.footer{
+    height: auto;
+    background-color:gainsboro  ;
+    font-weight: bold;
+    text-align: center;
+    margin-top:0px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 20px 0px;;
+
+}
+
+
+/*portfolio  page css */
+.heading{
+    text-align: center;
+    margin: 30px;
+}
+.row{
+    text-align: center;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+.c-center{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center !important;
+    text-align: center !important;
+}
+.btn-primary{
+    width: 100%;
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    right: 100%;
+    left: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+  }
+  .c{
+      margin: 0px !important;
+      padding: 0px !important;
+  }
+  .c:hover .overlay {
+    width: 100%;
+    left: 0;
+  }
+  .my-h{
+    max-height: 226.3px;
+  } 
+  .my-hover:hover{
+    border: 3px solid red;
+  }
+  .my-hover:hover h2{
+    color:red;
+    
+  }
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    letter-spacing: 2px;
+  }
+
+  /* Saylani Assess page css */
+.h-m{
+      margin-bottom: 0px !important;
+      padding: 5px;
+  }
+
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    align-items: center;
+  }
+  
+  .co:hover .image {
+    opacity: 0.3;
+  }
+  
+  .co:hover .middle {
+    opacity: 1;
+  }
+  
+  .text1{
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    padding: 15px;
+    font-weight:bold;
+  }
+  .middle a{
+  text-decoration:none;}
+  .middle a:hover{
+  border:3px solid green;
+  color: white;}
+  /* contact page css */
+.bg-color{
+  background-color: ghostwhite;
+}
+  address {
+    font-size: 80%;
+    margin: 0px;
+    color: #0f0f0f;
+  }
+  .hr{
+      margin: 0%;
+  }
+  .a-i-c{
+    align-items: center !important;
+  }
+  /* achievements page css */
+  /* bredcums css */
+  ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+  }
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+  ul.breadcrumb li a {
+    color: black;
+    text-decoration: none;
+  }
+  ul.breadcrumb li a:hover {
+    color: black;
+    text-decoration: none;
+  }
+  .bbb{
+    border-bottom: 3px solid green;
+    padding-left:4px;
+  }
+  /* conact me in index  */
+ @media only screen and ( max-width:360px){
+   .btn-1{
+     width: 100% !important;
+   }
+ }
+ .btn-1{
+   display: inline !important;
+ }
+/* contact for project */
+/* for feedback */
+.h2 {
+	color: #333;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	position: relative;
+	margin: 25px 0 50px;
+}
+.h2::after {
+	content: "";
+	width: 100px;
+	position: absolute;
+	margin: 0 auto;
+	height: 3px;
+	background: #ffdc12;
+	left: 0;
+	right: 0;
+	bottom: -10px;
+}
+
+
+/*  end for feedback */
+/* about css */
+.img-fluid {
+  max-width: 70%;
+ height: auto;
+ vertical-align: right;
+}
+
+  .vollkron{
+      font-family: Vollkorn,serif;
+  }
+  .display-4 {
+      font-size: 3.5rem;
+      font-weight: 300;
+        line-height: 1.2;
+    }
+    .algreya {
+        font-family: Alegreya,serif;
+           font-size: 20px;
+           font-display: swap;
+   }
+.text-muted {
+  color: #6c757d!important;
+}
+.h4, h4 {
+  font-size: 1.5rem;
+     }
+     .font-size{
+       font-size: 20px;
+     }
+/* about css end */
+/* bredcum
+ .breadcrumb{
+
+  position: absolute;
+  margin-top: 80px;
+  margin-left: -2%;
+  padding-left: 0%;
+  
+  
+}  */
+
